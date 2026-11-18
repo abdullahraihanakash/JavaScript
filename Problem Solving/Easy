@@ -1,1 +1,10 @@
+// Display a message in the console.
+console.log("Hello, world!");
 
+// Store two numbers.
+const firstNumber = 10;
+const secondNumber = 20;
+
+// Calculate and display their sum.
+const total = firstNumber + secondNumber;
+console.log(total); // 30
