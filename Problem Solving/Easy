@@ -8,3 +8,8 @@ const secondNumber = 20;
 // Calculate and display their sum.
 const total = firstNumber + secondNumber;
 console.log(total); // 30
+
+console.log("Console message");
+console.error("Something went wrong");
+console.warn("This is a warning");
+console.table([{ name: "Amina", score: 90 }, { name: "Rafi", score: 85 }]);
