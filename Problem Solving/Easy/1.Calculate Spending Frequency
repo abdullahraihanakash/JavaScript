@@ -1,1 +1,8 @@
+let totalMoney = 500;
+let spendingAmount = 75;
 
+let timesSpent = Math.floor(totalMoney / spendingAmount);
+let remainingMoney = totalMoney % spendingAmount;
+
+console.log("You can spend 75 Taka " + timesSpent + " times.");
+console.log("Remaining money after spending: " + remainingMoney + " Taka.");
